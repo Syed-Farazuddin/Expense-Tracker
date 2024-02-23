@@ -20,7 +20,7 @@ function Main() {
           Expense Tracker
         </Heading>
         <Flex alignItems={"center"}>
-          <Button bg={"blue.500"} onClick={isOpen} color={"black"}>
+          <Button bg={"blue.500"} onClick={onOpen} color={"black"}>
             Add new Transaction
           </Button>
         </Flex>

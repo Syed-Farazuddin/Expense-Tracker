@@ -40,7 +40,7 @@ function AddTransaction({ isOpen, onClose }) {
               />
             </FormControl>
             <RadioGroup mt={"5"}>
-              <Radio name="type" colorScheme="red" value="expense">
+              <Radio name="type" colorScheme="red" value="expense" mx={"2"}>
                 Expense
               </Radio>
               <Radio name="type" colorScheme="blue" value="income">

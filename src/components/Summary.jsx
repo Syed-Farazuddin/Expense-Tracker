@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex, Box, Heading, Text } from "@chakra-ui/react";
 import AddTransaction from "./AddTransaction";
+import ChartSummary from "./Chart";
 function Summary({ onClose, isOpen }) {
   return (
     <Box
@@ -78,7 +79,9 @@ function Summary({ onClose, isOpen }) {
           alignItems={"center"}
           justifyContent={"center"}
         >
-          <Heading>Chart</Heading>
+          <Heading>
+            <ChartSummary expense={200} income={400} />
+          </Heading>
         </Box>
       </Flex>
       <AddTransaction onClose={onClose} isOpen={isOpen} />
